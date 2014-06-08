@@ -21,6 +21,10 @@ print "p-value", p_value
 
 
 ## Using R command types in Python
+# I've not been able to get this to work, initial code was for "rpy" an
+# older version of rpy2, seem to have different features.
+
+
 from rpy2 import rpy_classic as r
 
 ls_fit = r.lisfit(my_x,my_y)
